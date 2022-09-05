@@ -1,8 +1,11 @@
 # PROFESSIONAL CERTIFICATE Meta Back-End Developer
 
-## Week 1 Lab   
-- [Week 1 Lab](/Week1Lab/Files/README.md)
+## Week 1 
+- [Week 1 ](/Week1/Files/)
 
-## Week 2 Lab      
-- [Week 2 Lab 1 ](/Week2Lab/README.md)            
-- [Week 2 Lab 2 ](/Week2Lab2/README.md)        
+## Week 2     
+- [Week 2 ](/Week2/)            
+- [Week 2  ](/Week2/)        
+
+## Week 3 
+- [Week 3 reading on Big O](https://dev.to/sarah_chima/the-big-o-notation-an-introduction-34f7)
