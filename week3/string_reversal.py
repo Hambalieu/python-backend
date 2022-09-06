@@ -18,3 +18,5 @@ def string_reversal(str):
 str = "monday"
 reverse = string_reversal(str)      
 print(reverse)
+
+
