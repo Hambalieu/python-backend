@@ -20,3 +20,9 @@
 - [In-depth understanding of MRO](https://www.python.org/download/releases/2.3/mro/)    
 
 - [OOP Principles/ Classes and objects](https://realpython.com/python3-object-oriented-programming/)      
+
+- [Python Packages](https://realpython.com/python-modules-packages/#python-packages)
+
+- [Modules in Python](https://www.programiz.com/python-programming/modules)
+
+- [How To Import Modules in Python 3](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)
