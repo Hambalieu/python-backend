@@ -72,6 +72,7 @@ def main():
     json_object = json.dumps(employee_dict)
     print("json_object: " + str(json_object))
     return json_object
+    
     # Write out the json object to file
     write_json_to_file(json_object, "employee.json")
 
