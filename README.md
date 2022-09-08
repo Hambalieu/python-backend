@@ -13,4 +13,10 @@
 - [Week 3 reading on Algorithms](https://www.thetechplatform.com/post/different-types-of-algorithms-in-data-structure)          
 - [Week 3 reading on Python Map, reduce and list comprehension](https://www.knowledgehut.com/blog/programming/python-map-list-comprehension)               
 - [Week 3 reading on Recursion in Python](https://realpython.com/python-recursion/)          
-- [Week 3 reading on Functional Programming in Python](https://stackabuse.com/functional-programming-in-python/)           
+- [Week 3 reading on Functional Programming in Python](https://stackabuse.com/functional-programming-in-python/)    
+
+- [OOP Principles](https://www.geeksforgeeks.org/python-oops-concepts/)   
+
+- [In-depth understanding of MRO](https://www.python.org/download/releases/2.3/mro/)    
+
+- [OOP Principles/ Classes and objects](https://realpython.com/python3-object-oriented-programming/)      
