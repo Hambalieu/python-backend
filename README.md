@@ -26,3 +26,11 @@
 - [Modules in Python](https://www.programiz.com/python-programming/modules)
 
 - [How To Import Modules in Python 3](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3)
+
+- [Popular packages in Python](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)           
+
+- [Popular Python packages for web development](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/)     
+
+- [ML and AI libraries in Python](https://towardsdatascience.com/best-python-libraries-for-machine-learning-and-deep-learning-b0bd40c7e8c)         
+
+- [Data Science libraries in Python](https://www.dataquest.io/blog/15-python-libraries-for-data-science/)
