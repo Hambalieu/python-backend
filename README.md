@@ -43,3 +43,11 @@
 ### Red Green Refactor cycle
 
 - ![Test driving development steps](/images/tdd_steps.png)
+
+- [Test-Driven Development](https://testdriven.io/blog/modern-tdd/)
+
+- [Test-driven Development with PyTest](https://stackabuse.com/test-driven-development-with-pytest/)
+
+- [PyTest Official website](https://docs.pytest.org/en/7.1.x/)
+
+- [Test automation packages in Python](https://www.coursera.org/learn/programming-in-python/supplement/Ew9TM/additional-resources#:~:text=Test%20automation%20packages%20in%20Python)

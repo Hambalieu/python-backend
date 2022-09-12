@@ -1,3 +1,6 @@
+from math import pi
+print(math.pi)
+
 #checks for presents of name in the list
 def is_present(person):
   names = ["Al", "Bo", "Chi", "Ma"]
