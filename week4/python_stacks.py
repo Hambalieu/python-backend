@@ -31,6 +31,8 @@ stack_list.pop()
 # Recommended approach is using collections.deque
 
 from collections import deque
+from inspect import stack
+
 
 # stack_imp = deque()
 
@@ -68,23 +70,61 @@ s = Stack()
 s.push('https://www.espn.com/')
 s.push('https://www.espn.com/nfl/')
 s.push('https://www.espn.com/nfl/standing')
-print(s.container)
+# print(s.container)
 
 #Remove elelment from statck using pop method
 #Note the pop method removes the last element that was added and also change the number of elements in the stack
 s.pop()
-print(s.container)
+# print(s.container)
 
-print('')
+# print('')
 #We use the peek method to check the last element that was added to the stack without removing it from the stack
-print(s.peek())
-print('')
-print(s.container)
+# print(s.peek())
+# print('')
+# print(s.container)
 
 
 #Check if the stack is empty using the is_empty method we created
 #Note this returns a boolean value i.e either True or False
-print(s.is_empty())
+# print(s.is_empty())
 
 #Check the size of the stack gives us the number of elements in our stack
-print(s.size())
+# print(s.size())
+
+
+#Write a function in python that can reverse a string using stack data structure
+def reverse_string(s):
+  stack = Stack()
+  for ch in s:
+    stack.push(ch)
+
+  revstr = ''
+  while stack.size() != 0:
+    revstr += stack.pop()
+  return revstr
+
+print(reverse_string('hello wolrd'))
+
+
+#Write a function in python that checks if paranthesis in the string are balanced or not. Possible parantheses are "{}',"()"
+def matched(ch1, ch2):
+  is_match_dict = {
+    ')':'(',
+    ']':'[',
+    '}':'{'
+  }
+  return is_match_dict[ch1] == ch2
+
+def is_balanced(s):
+  stack = Stack()
+  for ch in s:
+    if ch == '(' or ch == '{' or ch == '[':
+      stack.push(ch)
+    if ch == ')' or ch == '}' or ch == ']':
+      if stack.size() == 0:
+        return False
+      if not matched(ch, stack.pop()):
+        return False
+  return stack.size() == 0
+
+print(is_balanced("[a+b]*(x+2y)*{gg+kk}"))
