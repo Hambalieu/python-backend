@@ -1,13 +1,18 @@
 # queue uses FIFO - first in first out
 
-# In python we can use list but also we can use collections.deque
+# In python we can use List but also we can use collections.deque
+
+
+# Pushing and pop in a stack is an order of 1 that is BIG O -O(1)
+
+# Where as if you want to search for an element in a stack is an order of n that is Big O of n -O(n)
 
 #Implementing queue using list:
-# amz_stock_price_queue = []
-# amz_stock_price_queue.insert(0, 125)
-# amz_stock_price_queue.insert(0, 124)
-# amz_stock_price_queue.insert(0, 123)
-# amz_stock_price_queue.insert(0, 122)
+amz_stock_price_queue = []
+amz_stock_price_queue.insert(0, 125)
+amz_stock_price_queue.insert(0, 124)
+amz_stock_price_queue.insert(0, 123)
+amz_stock_price_queue.insert(0, 122)
 
 # print(amz_stock_price_queue)
 
@@ -17,17 +22,17 @@
 
 # #Using collections deque to implement queue
 from collections import deque
-# q = deque()
-# q.appendleft(5)
-# q.appendleft(7)
-# q.appendleft(2)
-# q.appendleft(4)
-# q.appendleft(3)
+q = deque()
+q.appendleft(5)
+q.appendleft(7)
+q.appendleft(2)
+q.appendleft(4)
+q.appendleft(3)
 
 # print(q)
 
 # # pop removes the element that was inserted first
-# q.pop()
+q.pop()
 # print(q)
 
 
