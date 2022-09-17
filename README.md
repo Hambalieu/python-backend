@@ -51,3 +51,13 @@
 - [PyTest Official website](https://docs.pytest.org/en/7.1.x/)
 
 - [Test automation packages in Python](https://www.coursera.org/learn/programming-in-python/supplement/Ew9TM/additional-resources#:~:text=Test%20automation%20packages%20in%20Python)
+
+### Unix Command
+
+- [Unix Commands Cheatsheet](https://cheatography.com/jluis/cheat-sheets/bash-and-unix-commands/)
+
+- [Vim Cheat Sheet](https://vim.rtorr.com/)
+
+- [Grep Cheatsheet](https://devhints.io/grep)
+
+- [Bash Cheatsheet](https://devhints.io/bash)
