@@ -67,3 +67,5 @@
 ### What are referential integrity constraints?
 
 - When a table is related to another table via a foreign key column, then the referenced column value must exist in the other table
+
+
